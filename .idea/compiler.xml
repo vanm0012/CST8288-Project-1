@@ -2,6 +2,10 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="(012) Lab-Lab_Project_1_main" target="1.8" />
+      <module name="(012) Lab-Lab_Project_1_test" target="1.8" />
+      <module name="CST8288-Project-1_main" target="1.8" />
+      <module name="CST8288-Project-1_test" target="1.8" />
       <module name="Lab_Project_1_main" target="1.8" />
       <module name="Lab_Project_1_test" target="1.8" />
     </bytecodeTargetLevel>
