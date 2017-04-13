@@ -1,5 +1,6 @@
 package io.github.vanm0012.symphonymanager.domain;
 
+import io.github.vanm0012.symphonymanager.exceptions.ConcertSeasonIndexOutOfBoundsException;
 import io.github.vanm0012.symphonymanager.util.Date;
 
 import java.util.ArrayList;
@@ -55,5 +56,17 @@ public class ConcertSeason
     public void addConcert(Concert concert)
     {
         this.concerts.add(concert);
+    }
+
+    public Concert getConcert(int index) throws ConcertSeasonIndexOutOfBoundsException
+    {
+        try
+        {
+            return concerts.get(index);
+        }
+        catch (IndexOutOfBoundsException e)
+        {
+            throw new ConcertSeasonIndexOutOfBoundsException("No concert found at index: " + index);
+        }
     }
 }
