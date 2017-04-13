@@ -26,7 +26,7 @@ public class TestComposition
     @Test
     public void testConstructorWithParams()
     {
-        ArrayList<Movement> movements = new ArrayList<Movement>();
+        ArrayList<Movement> movements = new ArrayList<>();
         movements.add(testMovement);
         Composition composition = new Composition(testComposer, testName, testId, movements);
         assertNotNull(composition);
@@ -40,5 +40,13 @@ public class TestComposition
         movements.add(testMovement);
         composition.setMovements(movements);
         assertEquals(composition.getMovements(), movements);
+    }
+
+    @Test
+    public void testSetComposer()
+    {
+        Composition composition = new Composition();
+        composition.setComposer(testComposer);
+        assertEquals(composition.getComposer(), testComposer);
     }
 }
