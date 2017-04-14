@@ -91,4 +91,10 @@ public class TestConcertSeason
         }
     }
 
+    @Test(expected = ConcertSeasonIndexOutOfBoundsException.class)
+    public void concertSeasonIndexOutOfBoundsException() throws ConcertSeasonIndexOutOfBoundsException
+    {
+        Concert concertFail = testConcertSeason.getConcert(12);
+    }
+
 }
