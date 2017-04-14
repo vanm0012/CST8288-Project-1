@@ -6,14 +6,13 @@ import static org.junit.Assert.*;
 
 public class TestConductor
 {
-
     @Test
-    public void setId() throws Exception
+    public void setId()
     {
     }
 
     @Test
-    public void getId() throws Exception
+    public void getId()
     {
     }
 

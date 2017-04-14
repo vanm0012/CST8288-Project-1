@@ -7,22 +7,22 @@ import static org.junit.Assert.*;
 public class TestMovement
 {
     @Test
-    public void setName() throws Exception
+    public void setName()
     {
     }
 
     @Test
-    public void setId() throws Exception
+    public void setId()
     {
     }
 
     @Test
-    public void getName() throws Exception
+    public void getName()
     {
     }
 
     @Test
-    public void getId() throws Exception
+    public void getId()
     {
     }
 

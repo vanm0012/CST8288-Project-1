@@ -7,12 +7,12 @@ import static org.junit.Assert.*;
 public class TestSoloist
 {
     @Test
-    public void setId() throws Exception
+    public void setId()
     {
     }
 
     @Test
-    public void getId() throws Exception
+    public void getId()
     {
     }
 
