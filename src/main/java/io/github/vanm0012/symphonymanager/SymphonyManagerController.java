@@ -1,7 +1,7 @@
 package io.github.vanm0012.symphonymanager;
 
 /**
- * The is the controller for the appication
+ * The is the controller for the application
  */
 public class SymphonyManagerController
 {

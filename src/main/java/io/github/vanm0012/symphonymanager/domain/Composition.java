@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 /**
  * This class holds and manipulates the data needed for a composition.
- * The composition hold an array of the movments within it as well as the name and composer.
+ * The composition holds an array of the movements within it as well as the name and composer.
  */
 public class Composition
 {
@@ -14,7 +14,7 @@ public class Composition
     private String id;
 
     /**
-     * The default constructor initializes the movments arraylist
+     * The default constructor initializes the movements arraylist
      */
     public Composition()
     {
@@ -25,7 +25,7 @@ public class Composition
      * This constructor initializes the arraylist and sets all the variables.
      * @param composer The name of the composer for this composition
      * @param name The name of the composition
-     * @param id The identifaction number for the composition
+     * @param id The identification number for the composition
      * @param movements The arraylist of the movements in the composition
      */
     public Composition(String composer, String name, String id, ArrayList<Movement> movements)
@@ -65,7 +65,7 @@ public class Composition
 
     /**
      * Sets the ID from a given string
-     * @param id The identifaction number for the composition
+     * @param id The identification number for the composition
      */
     public void setId(String id)
     {
